@@ -1,0 +1,2 @@
+wfuzz -c -z range,1-100 -H "Cookie:PHPSESSID=p6oocv9k3vkpvh6h0jaavdjom3"--hh http://10.10.0.30/?action=home&user_id=FUZZ^C
+
